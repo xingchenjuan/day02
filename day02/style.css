@@ -1,0 +1,21 @@
+div{
+    color: blue;
+    font-size: 40px;
+}
+
+.header li{
+    color: brown；
+}
+
+.header>ul{
+    border:10px solid :#ccc;
+}
+
+.header ul>li:nth-child(2){
+    height:100px;
+}
+
+.header ul>li:hover{
+       color: blueviolet;
+       background-color:pink;
+}
